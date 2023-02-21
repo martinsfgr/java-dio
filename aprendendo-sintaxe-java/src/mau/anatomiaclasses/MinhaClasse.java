@@ -1,3 +1,5 @@
+package mau.anatomiaclasses;
+
 public class MinhaClasse {
     public static void main(String[] args) {
         System.out.println("Estou dentro do método");
