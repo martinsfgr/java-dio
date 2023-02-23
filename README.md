@@ -3,6 +3,8 @@
 
 Repositório com códigos desenvolvidos durante o estudo de Java na plataforma da DIO.
 
+[Guia Básico](https://glysns.gitbook.io/java-basico/)
+
 ## Atalhos do IntelliJ Idea
 **Geral**
 -   Alt + 1: Focar aba de projetos
