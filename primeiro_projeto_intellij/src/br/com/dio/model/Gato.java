@@ -1,4 +1,4 @@
-package primeito_projeto_intellij.src.br.com.dio.model;
+package primeiro_projeto_intellij.src.br.com.dio.model;
 
 import java.util.Objects;
 

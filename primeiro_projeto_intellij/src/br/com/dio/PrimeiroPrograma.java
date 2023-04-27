@@ -1,7 +1,7 @@
-package primeito_projeto_intellij.src.br.com.dio;
+package primeiro_projeto_intellij.src.br.com.dio;
 
-import br.com.dio.model.Gato;
-import br.com.dio.model.Livro;
+import primeiro_projeto_intellij.src.br.com.dio.model.Gato;
+import primeiro_projeto_intellij.src.br.com.dio.model.Livro;
 
 public class PrimeiroPrograma {
     public static void main(String[] args) {

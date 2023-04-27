@@ -1,4 +1,4 @@
-package primeito_projeto_intellij.src.br.com.dio.calculadora;
+package primeiro_projeto_intellij.src.br.com.dio.calculadora;
 
 import java.util.Scanner;
 
