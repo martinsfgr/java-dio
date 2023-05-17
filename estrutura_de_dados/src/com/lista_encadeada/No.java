@@ -30,7 +30,7 @@ public class No<T> {
         return proximoNo;
     }
 
-    public void setProximoNo(No proximoNo) {
+    public void setProximoNo(No<T> proximoNo) {
         this.proximoNo = proximoNo;
     }
 
