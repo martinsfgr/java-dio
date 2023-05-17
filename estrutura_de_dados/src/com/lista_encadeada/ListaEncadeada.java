@@ -58,6 +58,10 @@ public class ListaEncadeada<T> {
         return noRetorno;
     }
 
+    public T get(int index) {
+        return getNo(index).getConteudo();
+    }
+
     public boolean isEmpty() {
         return referenciaEntrada == null;
     }
