@@ -41,6 +41,23 @@ public class ListaEncadeada<T> {
         noAuxiliar.setProximoNo(novoNo);
     }
 
+    private No<T> getNo(int index) {
+
+        if (index >= size()) {
+            throw new IndexOutOfBoundsException("Não existe conteúdo no índice " + index);
+        }
+
+        No<T> noAuxiliar = referenciaEntrada;
+        No<T> noRetorno = null;
+
+        for (int i = 0; i < this.size()-1; i++) {
+            noRetorno = noAuxiliar;
+            noAuxiliar = noAuxiliar.getProximoNo();
+        }
+
+        return noRetorno;
+    }
+
     public boolean isEmpty() {
         return referenciaEntrada == null;
     }
