@@ -1,19 +1,31 @@
 package entendendo_metodos.src.com.sobrecarga;
 
 public class Quadrilatero {
-    public static void area (double lado) {
-        System.out.println("Área do quadrado: " + lado*lado);
+    public static double area (double lado) {
+        double resultado = lado*lado;
+
+        System.out.println("Área do quadrado: " + resultado);
+        return resultado;
     }
 
-    public static void area (double ladoUm, double ladoDois) {
-        System.out.println("Área do retângulo: " + ladoUm*ladoDois);
+    public static double area (double ladoUm, double ladoDois) {
+        double resultado = ladoUm*ladoDois;
+
+        System.out.println("Área do retângulo: " + resultado);
+        return resultado;
     }
 
-    public static void area (double baseMaior, double baseMenor, double altura) {
-        System.out.println("Área do trapézio: " + ((baseMaior+baseMenor)*altura)/2);
+    public static double area (double baseMaior, double baseMenor, double altura) {
+        double resultado = ((baseMaior+baseMenor)*altura/2);
+
+        System.out.println("Área do trapézio: " + resultado);
+        return resultado;
     }
 
-    public static void area (float diagonalUm, float diagonalDois) {
-        System.out.println("Área do losango: " + (diagonalUm*diagonalDois)/2);
+    public static float area (float diagonalUm, float diagonalDois) {
+        float resultado = (diagonalUm*diagonalDois)/2;
+
+        System.out.println("Área do losango: " + resultado);
+        return resultado;
     }
 }
