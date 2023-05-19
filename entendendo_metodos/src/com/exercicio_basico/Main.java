@@ -15,5 +15,10 @@ public class Main {
         Mensagem.enviarMensagem(24);
         Mensagem.enviarMensagem(3);
         Mensagem.enviarMensagem(30);
+
+        Emprestimo.calcularEmprestimo(2000, 5);
+        Emprestimo.calcularEmprestimo(2000, 7);
+        Emprestimo.calcularEmprestimo(10000.50, 5);
+        Emprestimo.calcularEmprestimo(10000.50, 7);
     }
 }
