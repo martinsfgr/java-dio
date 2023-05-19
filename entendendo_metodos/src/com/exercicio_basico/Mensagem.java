@@ -9,6 +9,8 @@ public class Mensagem {
         } else if (18 <= horario && horario <= 24
                 || 0 <= horario && horario <= 4) {
             enviarBoaNoite();
+        } else {
+            System.out.println("Horário inválido.");
         }
     }
 

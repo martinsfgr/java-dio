@@ -14,5 +14,6 @@ public class Main {
         Mensagem.enviarMensagem(19);
         Mensagem.enviarMensagem(24);
         Mensagem.enviarMensagem(3);
+        Mensagem.enviarMensagem(30);
     }
 }
